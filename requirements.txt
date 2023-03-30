@@ -1,0 +1,4 @@
+gspread
+python-dotenv
+requirements
+beautifulsoup4

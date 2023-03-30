@@ -94,7 +94,7 @@ def update_voting_sheet(sheet, net_ids):
     """
     for i in range(len(net_ids)):
         if not student_is_part_of_school(net_ids[i]):
-            invalid_cell = f"C{START_ROW + i}"
+            invalid_cell = f"A{START_ROW + i}:K{START_ROW + i}"
             sheet.format(invalid_cell, {"backgroundColor": INVALID_COLOR})
         sleep(DELAY)
 
